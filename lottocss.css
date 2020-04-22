@@ -1,0 +1,116 @@
+body {
+    margin: 5% auto auto 0px;
+    padding: 5px;
+}
+
+
+#topsect{
+    border-bottom: 3px solid #ffbf00;
+    color: #696969;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+#inner_cont h3{
+    color: #d9d9d9;
+    text-align: center;
+    font-weight: bolder;
+	
+}
+
+#inner_cont{
+    text-align: center;
+    background-image: linear-gradient(#2e8b57 70%, #ffbf00);
+    padding: 10px; 
+    margin-bottom: 5px;
+}
+
+
+input[type=number]{
+    width :70px;
+    align: center;
+    text-align: center;
+    border: 2px solid #ffbf00;
+    color: seagreen;
+    font-weight: bold;
+    height: 4em;
+
+}
+
+.button_pad{
+    text-align: center;
+    padding: 5px;
+
+}
+
+#disp_output{
+    font-weight: 700;
+    letter-spacing: 2px;
+    max-width: 70%;
+    padding: 10px;
+    border-width: 2px;
+    height: 4em;
+    text-align: center;
+    font-size: 1.4em;
+    color: #2282b2;
+    
+}
+
+.btn_override{
+    border: none;
+    text-align: center;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 100px;    
+    padding: 0.875em 1em;
+    min-width: 2em;
+   box-shadow:  -3px 4px 4px grey; 
+   transition: background-color 0.3s box-shadow 0.5s, transform 15s; 
+}
+
+
+.btn_override:active {
+    transform: scale(0.8);
+    
+}
+
+p{
+    display:inline-block;
+}
+h3{
+    margin-top: 0px;
+}
+
+#result_details{
+    background-color: white;
+    height: 7em;
+    padding: 5px;
+    text-align: justify;
+    margin: 2px;
+    font-size: 1.1em;
+    color: #708090;
+}
+
+#playbtn_div{
+    text-align: right;
+}
+
+
+.btn_override,
+.btn_override:hover,
+.btn_override:focus,
+.btn_override:active{
+   outline:0 !important;
+}
+
+
+footer{
+    background-color: grey;
+    color: gold;
+    text-align: center;
+    border-top: 2px solid #ffbf00;
+    width: 100%;
+}
+

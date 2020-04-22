@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+-- Code By: Micheal
+-- Reviewers: Rik WitKopp
+-- Appreciation: MakZo & Yoel your app drives me to create something
+-- Contributor: Makzo
+-- developed with mobile phone for mobile display
+-- Free to advise and criticize me 
+-- Thank-You for playing and Upvotes
+-->
+
+
+<html>
+    <head>
+        <title>Simple Lotto Game</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="lottojs.js"></script>
+		<link rel="stylesheet" href="lottocss.css" />
+    </head>
+    <body>
+    
+    <div class="container"> <!-- start of bootstrap container -->
+        
+        <!-- section 1 -->
+        <section>         
+        <div id="topsect" class="row">
+            <div id="user_details" class="col-xs-8">Welcome: <p id="account"></p></div>
+            <div id= "credit" class="col-xs-4">C:<p id="cid"></p>$</div>
+        </div> <!-- end section one row -->
+        </section>
+      
+     <!-- section 2 -->   
+        <section id="inner_cont">
+			
+            <h3>LOTTO GAME</h3>
+            <div id="result">
+                <input  type="text" id="disp_output" readonly value=""/>
+            </div>
+            <hr /> 
+            <div id="user_inputs" class="row button_pad">
+                <div class="col-xs-4">
+                    <input type="number" id="u-np1" class="" maxlength="2" placeholder="0" min="0" max="50" required autofocus />
+                </div> <!-- end of input1  div -->
+                <div class="col-xs-4">
+                    <input type="number" id="u-np2" class=" " maxlength="2" placeholder="1" min="0" max="50" required />
+                </div>  <!-- end of input2 div -->
+                <div class="col-xs-4">
+                    <input type="number" id="u-np3" class=" " maxlength="2" placeholder="2" min="0" max="50" required />
+                </div>  <!-- end of input3 div -->
+             </div>         <!-- end of input row for bootstrap -->
+            
+            <br />
+         <div id="result_details" class="row button_pad">
+                <div class="col-xs-12">
+                    
+                </div>
+            </div> <!-- end of details display -->
+        </section>   <!-- end of section2 -->
+		
+        
+              
+        <!-- section 3 and final -->  
+        <section>
+             <div id=" "  class="row">
+                 <div id="clearbtn_div" class="col-xs-5"> 
+                     <input type="button" id="clearbtn" class="btn btn-large btn-success  btn_override" value="play Again" />
+                 </div>
+                 <div class="col-xs-2"></div>
+                 <div id="playbtn_div" class="col-xs-5"> 
+                     <input type="submit"  id="playbtn" class="btn btn-large btn-primary btn_override " value="submit" />
+                 </div>          
+             </div> <!-- end of row -->
+             
+          </section> 
+            
+            
+            <br />
+            <footer>
+                <div>
+                   Copyrights &copy Micheal & Sololearn 2019
+                </div>
+            </footer>
+            
+    </div> <!-- end of bootstrap containers -->
+    </body>
+</html>
+
+<!--
+~~ updates pending ~~~~~~
+~~ using modal
+----- play beep sound on click
+----- nav button for help
+----- easy and Hard 
+->
